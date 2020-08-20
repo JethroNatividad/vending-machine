@@ -1,0 +1,14 @@
+.Hotdog {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.Hotdog-img{
+    width: 200px;
+    height: auto;
+}
+img.dancingDog{
+    transform: scale(1.3);
+}

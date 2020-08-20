@@ -1,0 +1,26 @@
+.VendingMachine{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.VendingMachine-text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%
+}
+.VendingMachine-text-container div{
+    margin: 0 2% 0 2%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    color: #fff;
+    font-size: 1.5em;
+}
+.VendingMachine-text-container .right{
+    display: flex;
+    flex-flow: nowrap column;
+}

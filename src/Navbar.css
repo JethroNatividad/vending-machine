@@ -1,0 +1,27 @@
+.Navbar{
+  background-color: #30323d;
+  padding: 10px 15px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+.Navbar-Item{
+  padding: 7px;
+  margin: 0 0 0 6px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+.Navbar-Item:hover{
+  color: rgba(255, 255, 255, 0.788);
+}
+.Navbar-Item-Active{
+  border-bottom: 1px solid #fff;
+}
