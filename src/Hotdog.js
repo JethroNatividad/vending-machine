@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
 import hotdogImg from './hotdog.png'
-import dog from './dog.gif'
 import './Hotdog.css'
 class Hotdog extends Component{
     constructor(props){
@@ -37,7 +36,7 @@ class Hotdog extends Component{
     render(){
         return(
             <div className='Hotdog'>
-                {this.state.playing && <img alt='dancing dog gif' className='dancingDog' src={dog}/>}
+                {this.state.playing && <img alt='dancing dog gif' className='dancingDog' src='https://i.giphy.com/media/Dl2seYrwPvfjO/giphy.webp'/>}
                 <div style={{display: this.state.playing ? 'none' : 'block'}}>
                     <h3 style={{visibility: this.state.h3hidden ? 'hidden' : ' '}}>Click me!</h3>
                     <img alt='hotdog' className='Hotdog-img' onClick={this.Play} onMouseOver={this.Show} onMouseOut={this.Hide} src={hotdogImg}/>

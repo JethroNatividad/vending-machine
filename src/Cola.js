@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
 import './Cola.css'
-import colaGif from './cola.gif'
 class Cola extends Component{
     constructor(props){
         super(props)
@@ -17,7 +16,7 @@ class Cola extends Component{
     render(){
         return (
             <div className='Cola'>
-                <img alt='cola.gif' src={colaGif}/>
+                <img alt='cola.gif' src='https://i.giphy.com/media/hQKiGV6MG8WmsHg2yx/giphy.webp'/>
                 <div className='stars'></div>
                 <div className='twinkling'></div>
                 <div className='clouds'></div>
